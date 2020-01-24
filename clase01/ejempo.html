@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase1</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            margin: auto;            
+        }
+        body{
+            background-image: url("fondo.jpg");
+            background-color: black;
+        }
+        #caja{
+            width: 900px;
+            height: 150px;
+            background-color: rgb(69, 154, 224);
+            color: white;
+            padding-top: 50px;
+            padding-left: 30px;
+            box-sizing: content-box;
+            box-sizing:border-box; 
+            -moz-box-sizing:border-box;
+        }
+        #caja2{
+            width: 900px;
+            height: 30px;
+            box-sizing: content-box;
+            background-color: chartreuse;
+        }
+        #caja3{
+            width: 900px;
+            height: 500px;
+            background-color: crimson;
+        }
+        #footer{
+            width: 900px;
+            height: 50px;
+            background-color:darkmagenta;
+            color: white;
+        }
+        form{
+            background-color: rgb(53, 53, 22);
+            width: 200px;
+            padding: 20px;
+            box-sizing: content-box;
+            box-sizing:border-box; 
+            -moz-box-sizing:border-box;
+        }
+        label{
+            color:yellow;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        .cajita{
+            width: 150px;
+            height: 20px;
+            padding-left: 10px;
+            background-color: white;
+            border-color: yellow;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+
+        }
+        .boton{
+            width: 165px;
+            height: 30px;
+            border-color:white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="caja">
+        <h1>Hola Mundo..!</h1><!--Cabecera-->
+    </div>
+    <div id="caja2"></div><!--menu-->
+    <div id="caja3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam recusandae quisquam facilis necessitatibus repellat. Qui consectetur ipsa, molestias voluptates quasi exercitationem eligendi cum asperiores blanditiis, atque inventore. Consectetur, autem incidunt.</p>
+        <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, voluptates! Sunt nemo quidem cumque iusto cum magnam praesentium fugit nihil debitis nam odit quae, voluptas reiciendis laborum. Dolorem, sunt consectetur!</strong>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rerum voluptas dolorem culpa necessitatibus in aspernatur ipsum ut ducimus quae, labore consectetur autem asperiores minima sed vero voluptate incidunt! Unde!</b>
+        <form action="#">
+            <label for="a">Usuario</label><br>
+            <input type="text" class="cajita" value="dreyna" name="user" required><br>
+            <label for="a">Foto</label><br>
+            <input type="file" name="foto" id="foto" class="cajita">
+            <label for="a">Clave</label><br>
+            <input type="password" class="cajita" required><br>
+            <input type="submit" value="Enviar" class="boton"><br>
+        </form>
+    </div><!--contenido-->
+    <div id="footer"></div><!--pie de pagina-->
+</body>
+</html>
